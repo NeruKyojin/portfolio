@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #4b4848;
+    color: #fdd07b;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.border {
+    border: 2px solid rgb(0, 47, 255);
+    border-radius: 8px;
+    padding: 40px;
+    margin: 5px;
+    background-color: grey;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fdd07b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 55.2px 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background: #fdd07b;
+    border: 1px solid #fdd07b;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    outline-style: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 37.5px;
+    background: #4b4848;
+    color: #fdd07b;
+}
